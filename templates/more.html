@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+    page more
+{% endblock % }
+
+{% block body %}
+    <h1>second page</h1>
+    <p>this is my paragraph</p>
+    <a href="{{url_for('index')}}">Go back..</a>
+{% endblock % }
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My web page</title>
+</head>
+<body>
+    <h1>second page</h1>
+    <p>this is my paragraph</p>
+    <a href="{{url_for('index')}}">Go back..</a>
+</body>
+</html> -->
